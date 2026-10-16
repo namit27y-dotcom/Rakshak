@@ -1,232 +1,219 @@
-🛡️ Rakshak — Disaster Management Platform
+🛡️ RAKSHAK
 
-Protecting Lives Through Technology
+Disaster Management & Emergency Response Platform
 
-Rakshak is a disaster management web application designed to support disaster awareness, emergency preparedness, and coordinated response through technology. The platform aims to make disaster-related information and assistance more accessible to communities during emergencies.
+<p align="center">
+  <strong>🚨 Protecting Lives Through Technology 🌍</strong>
+</p><p align="center">
+  A technology-driven platform designed to support disaster awareness, emergency preparedness, and coordinated response.
+</p><p align="center">
+  <a href="https://rakshanet.vercel.app/">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Rakshak-0D9488?style=for-the-badge" alt="Live Demo"/>
+  </a>
+  <a href="https://github.com/namit27y-dotcom/RakshaNet">
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository"/>
+  </a>
+</p><p align="center">
+  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?style=flat&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/TypeScript-Type_Safe-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Vite-Build_Tool-646CFF?style=flat&logo=vite&logoColor=white" alt="Vite"/>
+  <img src="https://img.shields.io/badge/Vercel-Deployed-000000?style=flat&logo=vercel&logoColor=white" alt="Vercel"/>
+</p>---
 
-🌐 Live Website: https://rakshanet.vercel.app/
+🌍 About Rakshak
 
-📂 GitHub Repository: https://github.com/namit27y-dotcom/RakshaNet
+Rakshak is a disaster management web application focused on improving disaster preparedness, information accessibility, and emergency response coordination.
 
----
+Natural disasters such as floods, earthquakes, cyclones, and fires can create urgent needs for reliable information and organized assistance. Rakshak explores how modern web technologies can help communities access useful information and coordinate disaster response.
 
-📌 Table of Contents
+«💡 Our Vision: Make disaster-related information more accessible and help communities become better prepared for emergencies.»
 
-- "About the Project" (#-about-the-project)
-- "Objectives" (#-objectives)
-- "Key Features" (#-key-features)
-- "Technology Stack" (#️-technology-stack)
-- "Project Structure" (#-project-structure)
-- "Getting Started" (#-getting-started)
-- "Environment Variables" (#-environment-variables)
-- "Future Enhancements" (#-future-enhancements)
-- "Safety and Reliability" (#-safety-and-reliability)
-- "Contributing" (#-contributing)
-- "Author" (#-author)
-- "License" (#-license)
+✨ Key Capabilities
 
-🌍 About the Project
-
-During disasters such as floods, earthquakes, cyclones, and fires, access to timely information and organized emergency assistance can be critical.
-
-Rakshak aims to provide a centralized digital platform to support disaster preparedness, information sharing, and relief coordination. It is developed as a technology-driven project exploring how modern web development can contribute to disaster management and community safety.
-
-🎯 Objectives
-
-- Improve access to disaster-related information.
-- Encourage disaster preparedness and public awareness.
-- Support efficient emergency reporting and response workflows.
-- Help communities coordinate relief activities.
-- Explore opportunities for technology-assisted disaster management.
-- Build a scalable and user-friendly web application.
-
-✨ Key Features
-
-The following are potential platform capabilities. Keep only the features that are implemented and working in the current application.
-
-- 🚨 Emergency Reporting: Submit information about disasters and emergencies.
-- 🗺️ Disaster Information: Display relevant disaster information and affected locations.
-- 🆘 Emergency Assistance: Provide access to useful emergency resources.
-- 🤝 Relief Coordination: Support collaboration between volunteers and relief teams.
-- 📦 Resource Management: Organize essential relief supplies.
-- 📢 Alerts and Updates: Share important safety information.
-- 📱 Responsive Interface: Support access across mobile and desktop devices.
+<table>
+  <tr>
+    <td width="50%">
+      <h3>🚨 Emergency Reporting</h3>
+      Support the reporting of disaster incidents and emergency situations.
+    </td>
+    <td width="50%">
+      <h3>🗺️ Disaster Information</h3>
+      Present relevant disaster information and affected-area details.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🆘 Emergency Assistance</h3>
+      Make useful emergency resources and safety information accessible.
+    </td>
+    <td width="50%">
+      <h3>🤝 Relief Coordination</h3>
+      Support collaboration between communities, volunteers, and relief teams.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>📱 Responsive Experience</h3>
+      Aim for an accessible experience across mobile and desktop devices.
+    </td>
+    <td width="50%">
+      <h3>📢 Safety Awareness</h3>
+      Help users access relevant preparedness and safety information.
+    </td>
+  </tr>
+</table>The capabilities above describe the project's intended scope. Only features implemented in the current application should be presented as working features.
 
 🛠️ Technology Stack
 
-Technology| Purpose
-React| Building reusable user interface components
-TypeScript| Type-safe application development
-Vite| Frontend development server and build tooling
-CSS| Styling and visual presentation
-Supabase| Backend and database services, where integrated
-Vercel| Website deployment and hosting
-Git| Version control
-GitHub| Source code hosting and collaboration
+Technology| Role
+⚛️ React| Component-based user interface
+🔷 TypeScript| Typed application development
+⚡ Vite| Development server and production build
+🎨 CSS| Styling and layout
+🗄️ Supabase| Backend/database services, if configured
+▲ Vercel| Hosting and deployment
+🐙 Git & GitHub| Version control and source management
 
-Note: React, TypeScript, and Vite are identified from the repository's "src" files. Supabase is listed as a project component because a "supabase" directory exists; its specific usage should be verified from the code and configuration.
+🏗️ Project Structure
 
-📂 Project Structure
-
-RakshaNet/
+Rakshak/
 ├── src/
-│   ├── components/
-│   ├── context/
-│   ├── data/
-│   ├── services/
-│   ├── types/
-│   ├── App.tsx
-│   ├── main.tsx
-│   └── index.css
-├── supabase/
-├── .env.example
-├── .gitignore
-├── .vercelignore
+│   ├── components/    # Reusable UI components
+│   ├── context/       # Shared application state
+│   ├── data/          # Application data
+│   ├── services/      # API and service integrations
+│   ├── types/         # TypeScript definitions
+│   ├── App.tsx        # Main application component
+│   ├── main.tsx       # Application entry point
+│   └── index.css      # Global styles
+├── supabase/          # Supabase-related files
+├── .env.example       # Example environment variables
+├── index.html
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── tailwind.config.js
+├── vite.config.ts
 └── README.md
 
-Folder Overview
+Folder descriptions are based on the visible repository structure; exact responsibilities depend on the implementation.
 
-- "src/components/" — Reusable UI components.
-- "src/context/" — Application context and shared state, if used.
-- "src/data/" — Application data and supporting datasets.
-- "src/services/" — Service and API integration logic.
-- "src/types/" — TypeScript type definitions.
-- "src/App.tsx" — Main application component.
-- "src/main.tsx" — Application entry point.
-- "src/index.css" — Global styles.
-- "supabase/" — Supabase-related files and configuration.
+🚀 Getting Started
 
-⚙️ Getting Started
-
-Follow these instructions to run the project locally.
+Run Rakshak locally using the following steps.
 
 Prerequisites
 
-Install the following tools:
-
 - "Node.js" (https://nodejs.org/)
-- npm, included with Node.js
+- npm
 - "Git" (https://git-scm.com/)
-- A code editor such as Visual Studio Code
 
-1. Clone the Repository
+1. Clone the repository
 
-git clone https://github.com/namit27y-dotcom/RakshaNet.git
+If your repository has been renamed to "Rakshak":
 
-2. Navigate to the Project
+git clone https://github.com/namit27y-dotcom/Rakshak.git
+cd Rakshak
 
-cd RakshaNet
+If its name is still "RakshaNet", use that name in the clone URL and directory instead.
 
-3. Install Dependencies
+2. Install dependencies
 
 npm install
 
-4. Configure Environment Variables
+3. Configure environment variables
 
-If the application requires Supabase credentials or other environment variables, configure them using the project's ".env.example" file.
+Review ".env.example" and provide the variables required by the application.
 
-See the "Environment Variables" (#-environment-variables) section below.
-
-5. Start the Development Server
-
-npm run dev
-
-Open the local URL displayed in your terminal, commonly "http://localhost:5173".
-
-6. Build for Production
-
-npm run build
-
-7. Preview the Production Build
-
-npm run preview
-
-These commands assume the repository's "package.json" defines the standard Vite scripts. Check that file if a command is unavailable.
-
-🔐 Environment Variables
-
-The repository includes an ".env.example" file. Review it to identify the variables required by the application.
-
-For a typical Supabase integration, the configuration may include:
+For example, a Supabase integration may use:
 
 VITE_SUPABASE_URL=your_supabase_project_url
 VITE_SUPABASE_ANON_KEY=your_supabase_publishable_or_anon_key
 
-Use the exact variable names expected by your application code. These names are examples and may differ from your project.
+These are examples, not verified variable names for this project. Use the names expected by the source code.
 
-Security guidelines:
+4. Start the development server
 
-- Never commit your real ".env" file or private credentials.
-- Keep service-role keys and other privileged secrets on the server.
-- Use appropriate database permissions and Row Level Security policies when using Supabase.
-- Store deployment environment variables in the relevant hosting platform's settings.
+npm run dev
 
-🚀 Deployment
+Open the local URL shown in your terminal.
 
-Rakshak is available online through Vercel.
+5. Build for production
 
-Live Demo: https://rakshanet.vercel.app/
+npm run build
 
-For deployment updates, connect the GitHub repository to Vercel and configure the build settings and environment variables required by the application.
+To preview the production build:
 
-Typical Vite settings:
+npm run preview
 
-- Build command: "npm run build"
-- Output directory: "dist"
+These commands assume the corresponding scripts exist in "package.json".
 
-Confirm these settings against the repository configuration before deploying.
+🌐 Live Demo
 
-🔮 Future Enhancements
+<p align="center">
+  <a href="https://rakshanet.vercel.app/">
+    <img src="https://img.shields.io/badge/OPEN_LIVE_WEBSITE-Rakshak-0D9488?style=for-the-badge&logo=vercel&logoColor=white" alt="Open Rakshak"/>
+  </a>
+</p>Live URL: https://rakshanet.vercel.app/
 
-Potential improvements for future versions include:
+Explore the deployed application and its currently available functionality.
 
-- AI-assisted disaster risk analysis.
-- Integration with trusted real-time weather and disaster data.
-- Interactive maps showing affected areas and verified shelters.
-- Multilingual emergency information.
-- Notifications for important emergency updates.
-- Volunteer registration and relief coordination.
-- Analytics for disaster trends and resource planning.
-- Accessibility improvements for users with different needs.
+🔮 Future Roadmap
 
-These enhancements are ideas for future development and are not claims about existing functionality.
+- [ ] AI-assisted disaster risk analysis.
+- [ ] Integration with trusted real-time weather and disaster data.
+- [ ] Interactive maps for affected areas and verified shelters.
+- [ ] Multilingual emergency information.
+- [ ] Emergency notifications and alerts.
+- [ ] Volunteer registration and relief coordination.
+- [ ] Analytics for disaster trends and resource planning.
+- [ ] Improved accessibility and mobile usability.
 
-🔐 Safety and Reliability
+These are planned enhancements, not claims that these features are already implemented.
 
-Rakshak is intended to support disaster preparedness and response. It should not be treated as a replacement for official emergency services or verified government alerts.
+🔐 Safety & Security
 
-- Verify critical information through trusted authorities.
-- Protect user information and application credentials.
+- Use trusted sources for official emergency information.
 - Clearly distinguish verified alerts from user-submitted reports.
-- Avoid presenting unverified information as confirmed emergencies.
+- Protect credentials and sensitive user information.
+- Never expose privileged backend keys in frontend code.
+- Follow instructions from authorized emergency response agencies during disasters.
+
+Disclaimer: Rakshak is intended to support disaster preparedness and information access. It does not replace official emergency services or verified government alerts.
 
 🤝 Contributing
 
-Contributions, bug reports, and feature suggestions are welcome.
+Contributions, suggestions, and bug reports are welcome.
 
 1. Fork the repository.
 2. Create a feature branch.
-3. Make your changes.
-4. Test your implementation.
-5. Commit your changes with a descriptive message.
-6. Open a pull request.
+3. Implement your changes.
+4. Test the changes.
+5. Commit with a descriptive message.
+6. Submit a pull request.
 
 👨‍💻 Author
 
 Namit Yadav
 
-- GitHub: "@namit27y-dotcom" (https://github.com/namit27y-dotcom)
-- Project Repository: "RakshaNet" (https://github.com/namit27y-dotcom/RakshaNet)
-- Live Website: "Rakshak" (https://rakshanet.vercel.app/)
+<p>
+  <a href="https://github.com/namit27y-dotcom">
+    <img src="https://img.shields.io/badge/GitHub-namit27y--dotcom-181717?style=for-the-badge&logo=github" alt="GitHub Profile"/>
+  </a>
+</p>- Project: Rakshak
+- Repository: "View on GitHub" (https://github.com/namit27y-dotcom/RakshaNet)
+- Live Website: "Visit Rakshak" (https://rakshanet.vercel.app/)
 
 📄 License
 
-No license is specified in this README. Add an appropriate open-source license to the repository if you intend to permit reuse and redistribution.
+No license has been specified here. Add an appropriate license file if you intend to permit others to reuse, modify, or distribute the project.
 
 ---
 
-🛡️ Rakshak
-
-Protecting Lives Through Technology.
-
-Built to explore how modern web technologies can support disaster preparedness, community awareness, and emergency response.
+<p align="center">
+  <strong>🛡️ RAKSHAK</strong>
+  <br/>
+  <em>Protecting Lives Through Technology.</em>
+  <br/><br/>
+  Built with ❤️ to explore technology for disaster preparedness and community resilience.
+</p>
